@@ -27,3 +27,14 @@ Consider using the Flyweight pattern when:
 **Drawbacks:** ⚠️
 - **State Management:** Distinguishing and managing intrinsic and extrinsic states can be complicated.
 - **Increased Complexity:** Implementing the Flyweight pattern adds complexity to the application design.
+
+Explore the Flyweight folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium-Low
+
+**Reason:**
+The frequency of use for the Flyweight pattern in JavaScript and TypeScript is **medium-low**. This is due to several factors:
+
+1. **Specific Use Cases:** The pattern is most beneficial in scenarios with a large number of similar objects, which is not as common in many typical web development projects.
+2. **Complexity:** Implementing and managing the Flyweight pattern can add significant complexity, especially when managing the intrinsic and extrinsic states of objects.
+3. **Memory Optimization Needs:** While memory optimization is crucial in some applications, modern JavaScript engines handle memory efficiently, reducing the need for explicit Flyweight implementations in many cases.

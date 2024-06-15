@@ -19,3 +19,14 @@ It should be used when you need to change the implementation of a class without 
 - **Overhead:** Can add an additional layer of complexity.
 - **Best for new systems:** More suitable for new or refactored systems.
 - **Requires refactoring:** May require refactoring existing systems to implement.
+
+Explore the Bridge folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium
+
+**Reason:**
+The frequency of use for the Bridge pattern in JavaScript and TypeScript is **medium**. This is due to several factors:
+
+1. **Decoupling and Flexibility:** The Bridge pattern excels at decoupling abstraction from implementation, providing flexibility to change implementations without affecting the entire system. This is beneficial in complex applications where such decoupling is necessary.
+2. **Moderate Complexity:** While it introduces some complexity, this is often outweighed by the benefits of enhanced flexibility and maintainability.
+3. **Scenarios for Use:** It is particularly useful in scenarios where the implementation may need to vary independently from the abstraction, such as with multiple platforms or changing technologies.

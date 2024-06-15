@@ -21,3 +21,14 @@ You should consider using the Proxy pattern when:
 
 **Drawbacks:** ⚠️
 - **Complexity:** Adds an additional layer of abstraction and can complicate the system design.
+
+Explore the Proxy folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium
+
+**Reason:**
+The frequency of use for the Proxy pattern in JavaScript and TypeScript is **medium**. This is due to several factors:
+
+1. **Access Control Needs:** The Proxy pattern is beneficial for scenarios requiring controlled access to objects, such as API requests, logging, and caching, which are common in many applications.
+2. **Lazy Initialization:** It is useful for deferring the creation of resource-intensive objects until they are needed, optimizing resource usage.
+3. **Moderate Complexity:** While it adds some complexity, this is often justified by the enhanced control and optimization benefits, making it a practical choice for various applications.

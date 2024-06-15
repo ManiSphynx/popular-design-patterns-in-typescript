@@ -20,3 +20,12 @@ Use this pattern when you know you will have functionalities that will be repeat
 - Can be overkill for small projects where simplicity is preferred.
 
 Explore the Decorator folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium-High
+
+**Reason:**
+The frequency of use for the Decorator pattern in JavaScript and TypeScript is **medium-high**. This is due to several factors:
+
+1. **Dynamic Extension of Functionality:** The pattern is highly useful for dynamically adding and extending functionalities without modifying the existing code, which is a common requirement in many applications.
+2. **Code Reuse and Flexibility:** It promotes code reuse and provides a flexible way to manage and apply functionalities to objects at runtime, which is particularly beneficial in complex systems.
+3. **Moderate Complexity:** While it can introduce some complexity due to the need for multiple small objects and potential debugging challenges, the benefits often outweigh the drawbacks, especially in larger projects where modular and extensible code is crucial.

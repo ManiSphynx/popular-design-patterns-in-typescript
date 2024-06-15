@@ -19,3 +19,12 @@ It should be used when we have classes with incompatible interfaces and we want 
 - Adds an extra level of abstraction, which can increase system complexity.
 
 Explore the Adapter folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium-High
+
+**Reason:**
+The frequency of use for the Adapter pattern in JavaScript and TypeScript is **medium-high**. This is due to several factors:
+
+1. **Integration with Legacy Systems:** The Adapter pattern is particularly useful for integrating new components with legacy systems, which is a common scenario in many projects.
+2. **Code Reuse and Flexibility:** It promotes code reuse and provides flexibility in connecting different components, which is often needed in complex systems.
+3. **Moderate Complexity:** While it introduces some complexity due to an additional layer of abstraction, this is often justified by the benefits of being able to integrate disparate systems and maintain legacy code without major refactoring.

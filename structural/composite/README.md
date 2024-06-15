@@ -19,3 +19,14 @@ It should be used when you detect that the classes have a closely related hierar
 - **Management difficulty:** Can be harder to manage and debug a complex hierarchical structure.
 
 A useful analogy is how relational databases handle data hierarchies. For example, in a database, you might have a `Projects` table and a `Tasks` table, where each task belongs to a project. Similar to how the Composite pattern organizes objects in a tree structure, relational databases organize data in related tables, allowing queries and manipulations that reflect these relationships.
+
+Explore the Composite folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium
+
+**Reason:**
+The frequency of use for the Composite pattern in JavaScript and TypeScript is **medium**. This is due to several factors:
+
+1. **Hierarchical Structures:** The pattern is well-suited for applications that involve hierarchical structures, such as UI components, file systems, and organizational charts, which are common scenarios.
+2. **Uniformity and Flexibility:** It provides a way to treat individual objects and compositions uniformly, adding flexibility in how components are used and extended.
+3. **Moderate Complexity:** While the pattern can add complexity due to its hierarchical nature, this is often justified by the benefits of improved organization and reusability of components.
