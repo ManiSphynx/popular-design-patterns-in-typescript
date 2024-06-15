@@ -22,3 +22,12 @@ Use this pattern when:
 - **Maintenance Overhead:** Managing and maintaining prototypes can add overhead, especially in large systems.
 
 Explore the Prototype folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium-Low
+
+**Reason:**
+The frequency of use for the Prototype pattern in JavaScript and TypeScript is **medium-low**. This is due to several factors:
+
+1. **Cost of Cloning vs. Creating:** While cloning can be efficient, modern JavaScript engines make object creation relatively cheap, reducing the need for this pattern.
+2. **Common Use Cases:** The pattern is useful in specific scenarios where object creation is costly or complex, but these cases are less common in typical web development projects.
+3. **Complexity in Cloning:** Handling deep cloning can add complexity, making simpler patterns like Factory often more appealing for many use cases.

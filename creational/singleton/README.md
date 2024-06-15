@@ -22,3 +22,12 @@ The Singleton pattern is used to control access to shared resources, such as dat
 - **Hidden dependencies:** Can hide dependencies, making the code less clear and harder to maintain.
 
 Explore the Singleton folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** High
+
+**Reason:**
+The frequency of use for the Singleton pattern in JavaScript and TypeScript is **high**. This is due to several factors:
+
+1. **Control of Shared Resources:** The pattern is extremely useful for managing shared resources such as configurations, logging instances, or connections, which are common in many applications.
+2. **Simplicity:** It is straightforward to implement and understand, making it a go-to solution for ensuring a single instance of a class.
+3. **Global Access:** Provides a simple way to create a globally accessible instance, which is beneficial in many scenarios where a single point of access is needed.

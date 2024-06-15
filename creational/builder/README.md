@@ -24,3 +24,12 @@ The Builder pattern is composed of several key elements:
 - Adds additional complexity to the system by requiring multiple classes (Builder, Concrete Builder, etc.).
 
 Explore the Builder folder to see practical examples and understand how this pattern can be applied! 🔍📂
+
+**Frequency of Use:** Medium-High
+
+**Reason:**
+The frequency of use for the Builder pattern in JavaScript and TypeScript is **medium-high**. This is due to several factors:
+
+1. **Moderate Complexity with High Utility:** While the Builder pattern introduces additional classes, it significantly simplifies the construction of complex objects and ensures a clear separation of concerns.
+2. **Usefulness in Constructing Complex Objects:** It is particularly useful in scenarios where objects have multiple optional parts or configurations, such as constructing UI components, configuring services, or setting up complex configurations.
+3. **Flexibility and Maintainability:** The pattern enhances flexibility and maintainability by allowing the construction process to be independent of the representation, making it easier to manage changes and add new configurations.
